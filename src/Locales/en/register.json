@@ -1,0 +1,12 @@
+{
+  "title": "Sign Up",
+  "username": "Username",
+  "email": "Email",
+  "password": "Password",
+  "registerButton": "Sign Up",
+  "emailInvalid": "Please enter a valid email address.",
+  "registerSuccess": "Registration successful",
+  "registerFailed": "Registration failed.",
+  "haveAccount": "Already have an account?",
+  "login": "Sign In"
+}

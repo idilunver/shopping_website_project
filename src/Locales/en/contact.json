@@ -1,0 +1,18 @@
+{
+  "page_title": "CONTACT",
+  "page_description": "Fill out the form below to contact us quickly. We look forward to serving you!",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "email": "Email",
+  "phone": "Phone Number",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "SEND",
+  "address": "Address",
+  "office": "Office",
+  "office_address": "This is a demo website. No actual office address is available.",
+  "contact_numbers": "Contact Numbers",
+  "phone1": "0 (000) 000 0000",
+  "phone2": "0 (000) 000 0000",
+  "email_contact": "info@nexora.com.tr"
+}

@@ -1,0 +1,18 @@
+{
+  "slide1": [
+    "TECHNOLOGY FOR EVERY NEED",
+    "Latest Microcontrollers & Development Boards",
+    "ESP32, STM32, Arduino, Raspberry Pi and More"
+  ],
+  "slide2": [
+    "INNOVATIVE COMPONENTS & MODULES",
+    "Wireless Communication, Sensors, Power Supplies",
+    "All for Your Embedded and IoT Projects"
+  ],
+  "slide3": [
+    "QUALITY ELECTRONIC PRODUCTS",
+    "Fast Delivery, Secure Shopping, Affordable Prices"
+  ],
+  "slide_alt": "Slide {{index}}",
+  "more_info_button": "Shop Now"
+}

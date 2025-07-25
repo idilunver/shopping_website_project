@@ -1,0 +1,42 @@
+{
+  "sectionTitle": "Tecrübelerimiz",
+  "militaryTitle": "(ASKERİ/SİVİL PROJELER)",
+  "militaryDescription": "Askeri / sivil haberleşme sistem çözümlerinin oluşturulması, hayata geçirilmesi, İş Geliştirme, Proje Yönetim, Sistem Mühendisliği, Platform Entegrasyon ve Lojistik Destek faaliyetleri:",
+  "militaryList": [
+    "Müşteri ihtiyaçlarına yönelik gereksinimlerin olgunlaştırılması, teknik ve idari şartname ve sözleşmelere cevapların ve çözüm önerilerinin oluşturulması,",
+    "Standart ve prosedürlere uygun proje faaliyetlerinin yürütülmesi,",
+    "Sistem mimarisinin oluşturulması, detaylı sistem tasarımına karar verilmesi, yazılımsal ve donanımsal konfigürasyon faaliyetlerinin yerine getirilerek tasarımın doğrulanması,",
+    "Platform entegrasyon çözümlerinin oluşturulması,",
+    "Proje faaliyetlerine yönelik dokümanların hazırlanması,",
+    "Dokümanlara yönelik faaliyetlerin gerçekleştirilmesi ve takibi,",
+    "Üretim ve Entegrasyon Faaliyetlerinin yürütülmesi,",
+    "Test faaliyetleri,",
+    "Teslimat sonrası eğitim, doküman ve donanım desteği,",
+    "Müşteriye her aşamada teknik ve idari destek,"
+  ],
+  "techTitle": "(Teknolojiler ve Sistemler)",
+  "techList": [
+    "Uydu Haberleşme Sistemleri ve donanımlarının müşteri ihtiyaçlarına göre değerlendirilmesi,",
+    "Uydu Link ve Terminal Bütçesi analizlerinin yapılması,",
+    "IP Şebekeler ve VoIP sistemlerine dair mimari ve tasarım çalışmaları,",
+    "Video konferans ve güvenli iletişim altyapılarının entegrasyonu,",
+    "Frekans planlaması ve bant yönetimi tasarımı,",
+    "IPSec uygulamaları ve güvenlik dokümantasyonları,",
+    "TCP hızlandırma ve anahtarlama ekipmanlarının test edilmesi,",
+    "Haberleşme altyapı donanımlarının sistem entegrasyonu,",
+    "Medya dönüştürücüler ve arayüz cihazlarının üretim ve entegrasyonu,",
+    "LAN sistemlerinin kurulumu ve destek hizmetleri,",
+    "GSM ve radyo link sistemlerinin bakım ve teknik desteği,"
+  ],
+  "platformTitle": "(Platform ve Entegrasyon)",
+  "platformList": [
+    "Gereksinimlerin değerlendirilmesi ve çözüm önerilerinin oluşturulması,",
+    "Saha çalışmaları ve sistem tasarım süreçlerinin planlanması,",
+    "Enerji ve iklimlendirme çözümlerinin tasarıma entegrasyonu,",
+    "KIRMIZI / SİYAH ayrımı ve filtreleme çözümlerinin oluşturulması,",
+    "Ergonomi ve yerleşim analizleriyle tasarım iyileştirmeleri,",
+    "Mobilya ve ekipmanların uygun entegrasyonu,",
+    "Elektromekanik bileşenlerin tasarımı ve üretimi,",
+    "EMI/EMC analizleri ve test süreçlerinin yürütülmesi,"
+  ]
+}

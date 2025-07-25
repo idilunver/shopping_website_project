@@ -1,0 +1,12 @@
+{
+  "title": "Çözüm Ortaklarımız",
+  "intro": "SVD Sistem olarak birlikte çalıştığımız çözüm ortaklarımız:",
+  "abc": {
+    "name": "ABC Şirket",
+    "desc": "ABC şirket bilgileri: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis facilisis velit. Nunc justo lorem, feugiat molestie faucibus ac, consequat nec magna. Praesent convallis tortor et tortor dapibus, a tincidunt felis finibus. Quisque purus nisl, malesuada id lacinia nec, sollicitudin ut eros. Mauris mollis mauris in felis viverra, eget pulvinar lorem porta. Sed id ullamcorper massa, eget tempus libero. Proin eu rhoncus mauris. Mauris ac pharetra turpis."
+  },
+  "xyz": {
+    "name": "XYZ Şirket",
+    "desc": "XYZ şirket bilgileri: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis facilisis velit. Nunc justo lorem, feugiat molestie faucibus ac, consequat nec magna. Praesent convallis tortor et tortor dapibus, a tincidunt felis finibus. Quisque purus nisl, malesuada id lacinia nec, sollicitudin ut eros. Mauris mollis mauris in felis viverra, eget pulvinar lorem porta. Sed id ullamcorper massa, eget tempus libero. Proin eu rhoncus mauris. Mauris ac pharetra turpis."
+  }
+}

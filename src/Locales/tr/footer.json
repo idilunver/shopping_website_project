@@ -1,0 +1,27 @@
+{
+  "companyDescription": "Elektronik ve Teknoloji Ürünlerinde Güvenilir Sistem ve Entegrasyon Çözümleri",
+  "products": [
+    "Mikrodenetleyiciler ve Geliştirme Kartları",
+    "Kablosuz İletişim Modülleri (WiFi, Bluetooth, RF)",
+    "Sensörler ve Ölçüm Modülleri",
+    "Güç Kaynakları ve Dönüştürücüler",
+    "PCB Tasarım ve Prototipleme Ürünleri",
+    "Hobi ve IoT Projeleri için Elektronik Aksesuarlar"
+  ],
+  "quickLinks": "Hızlı Bağlantılar",
+  "quickLinksItems": {
+    "home": "Anasayfa",
+    "products": "Ürünlerimiz",
+    "aboutUs": "Hakkımızda",
+    "contact": "İletişim",
+    "partners": "Çözüm Ortaklarımız"
+  },
+  "contact": "İletişim",
+  "contactDetails": {
+    "address": "Bu bir demo sitedir. Gerçek bir adres mevcut değildir.",
+    "workingHours": "Pazartesi - Cuma: 09:00 - 18:00",
+    "phone": "0 (000) 000 00 00",
+    "linkedin": "linkedin.com/company/demo-profile",
+    "email": "info@nexora.com.tr"
+}
+}

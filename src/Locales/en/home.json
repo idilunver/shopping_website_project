@@ -1,0 +1,19 @@
+{
+  "title": "NEXORA",
+  "description": "Welcome to our site.",
+   "aboutTitle": "Who Are We?",
+  "aboutHeadline": "YOUR RELIABLE AND INNOVATIVE TECHNOLOGY SUPPLIER",
+  "aboutParagraph1": "NEXORA is a technology store specialized in electronics and embedded systems products.",
+  "aboutParagraph2": "We offer a wide range of products including ESP32, STM32, sensor modules, power converters, and more through our user-friendly platform.",
+  "aboutParagraph3": "Our goal is to add value to the projects of both individual and corporate customers by providing quality products, fast delivery, and technical support."
+  ,
+  "navbar": {
+    "home": "Home",
+    "products": "Products",
+    "experience": "Experiences",
+    "about": "About Us",
+    "contact": "Contact",
+    "partners": "Our Solution Partners"
+  }
+  
+}

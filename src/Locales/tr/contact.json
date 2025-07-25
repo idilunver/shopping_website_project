@@ -1,0 +1,18 @@
+{
+  "page_title": "İLETİŞİM",
+  "page_description": "Aşağıdaki formu doldurarak bizimle hızlı iletişim kurabilirsiniz. Size hizmet etmeyi dört gözle bekliyoruz!",
+  "first_name": "Adınız",
+  "last_name": "Soyadınız",
+  "email": "Email",
+  "phone": "Telefon numaranız",
+  "subject": "Konu",
+  "message": "Mesaj",
+  "send": "GÖNDER",
+  "address": "Adres",
+  "office": "Ofis",
+  "office_address": "Bu bir demo sitedir. Gerçek bir ofis adresi mevcut değildir.",
+  "contact_numbers": "İletişim Numaralarımız",
+  "phone1": "0 (000) 000 0000",
+  "phone2": "0 (000) 000 0000",
+  "email_contact": "info@svdsistem.com.tr"
+}

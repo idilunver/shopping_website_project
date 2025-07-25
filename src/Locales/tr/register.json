@@ -1,0 +1,12 @@
+{
+  "title": "Kayıt ol",
+  "username": "Kullanıcı Adı",
+  "email": "Email",
+  "password": "Şifre",
+  "registerButton": "Kayıt ol",
+  "emailInvalid": "Lütfen geçerli bir email adresi giriniz.",
+  "registerSuccess": "Kayıt başarılı",
+  "registerFailed": "Kayıt başarısız.",
+  "haveAccount": "Zaten bir hesabın var mı?",
+  "login": "Giriş Yap"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Giriş Yap",
+  "username": "Kullanıcı Adı",
+  "password": "Şifre",
+  "rememberMe": "Beni hatırla",
+  "loginButton": "Giriş Yap",
+  "noAccount": "Hesabın yok mu?",
+  "register": "Kayıt Ol",
+  "errorInvalid": "Geçersiz kullanıcı adı veya şifre."
+}

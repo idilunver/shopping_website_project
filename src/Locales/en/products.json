@@ -1,0 +1,29 @@
+{
+  "category": {
+    "All": "All",
+    "Gömülü Yazılım Uygulamaları": "Embedded Software Applications",
+    "PCB Kart Tasarımı ve Prototip İmalat": "PCB Card Design and Prototype Manufacturing",
+    "Kumanda Sistemleri": "Control Systems",
+    "Güç Kaynakları ve Enerji Dönüşüm Sistemleri": "Power Supplies and Energy Conversion Systems"
+  },
+  "category_label": "Category",
+  "our_products": "Our Products",
+  "add_new_product": "Add New Product",
+  "product_name": "Product Name",
+  "price": "Price",
+  "stock": "Stock",
+  "categories": "Categories",
+  "description": "Description",
+  "Description TR": "Description TR",
+  "Description EN": "Description EN",
+  "datasheet_url": "Datasheet URL",
+  "add_image": "Add Image",
+  "save_product": "Save Product",
+  "detail": "Detail",
+  "buy": "Buy",
+  "out_of_stock": "Out of Stock",
+  "product_added_success": "Product added successfully!",
+  "product_add_failed": "Failed to add product",
+  "view_datasheet": "View Datasheet",
+  "back_to_products": "Back to Products"
+}

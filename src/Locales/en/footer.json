@@ -1,0 +1,27 @@
+{
+  "companyDescription": "Reliable System and Integration Solutions in Electronics and Technology Products",
+  "products": [
+    "Microcontrollers and Development Boards",
+    "Wireless Communication Modules (WiFi, Bluetooth, RF)",
+    "Sensors and Measurement Modules",
+    "Power Supplies and Converters",
+    "PCB Design and Prototyping Products",
+    "Electronic Accessories for Hobby & IoT Projects"
+  ],
+  "quickLinks": "Quick Links",
+  "quickLinksItems": {
+    "home": "Home",
+    "products": "Our Products",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "partners": "Our Solution Partners"
+  },
+  "contact": "Contact",
+  "contactDetails": {
+    "address": "This is a demo website. No actual address is available.",
+    "workingHours": "Monday - Friday: 09:00 AM - 06:00 PM",
+    "phone": "0 (000) 000 00 00",
+    "linkedin": "linkedin.com/company/demo-profile",
+    "email": "info@nexora.com.tr"
+}
+}

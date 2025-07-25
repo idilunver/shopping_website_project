@@ -1,0 +1,29 @@
+{
+  "category": {
+    "All": "Tümü",
+    "Gömülü Yazılım Uygulamaları": "Gömülü Yazılım Uygulamaları",
+    "PCB Kart Tasarımı ve Prototip İmalat": "PCB Kart Tasarımı ve Prototip İmalat",
+    "Kumanda Sistemleri": "Kumanda Sistemleri",
+    "Güç Kaynakları ve Enerji Dönüşüm Sistemleri": "Güç Kaynakları ve Enerji Dönüşüm Sistemleri"
+  },
+  "category_label": "Kategori",
+  "our_products": "Ürünlerimiz",
+  "add_new_product": "Yeni Ürün Ekle",
+  "product_name": "Ürün Adı",
+  "price": "Fiyat",
+  "stock": "Stok",
+  "categories": "Kategoriler",
+  "description": "Açıklama",
+  "Description TR": "Açıklama TR",
+  "Description EN": "Açıklama EN",
+  "datasheet_url": "Datasheet URL",
+  "add_image": "Görsel Ekle",
+  "save_product": "Ürünü Kaydet",
+  "detail": "Detay",
+  "buy": "Satın Al",
+  "out_of_stock": "Stokta yok",
+  "product_added_success": "Ürün başarıyla eklendi!",
+  "product_add_failed": "Ürün eklenemedi",
+  "view_datasheet": "Datasheet'i görüntüle",
+  "back_to_products": "Ürünlere geri dön"
+}

@@ -1,0 +1,18 @@
+{
+    "title": "NEXORA",
+"description": "Sitemize hoş geldiniz.",
+    "aboutTitle": "Biz Kimiz?",
+    "aboutHeadline": "YENİLİKÇİ TEKNOLOJİ ÜRÜNLERİ",
+    "aboutParagraph1": "NEXORA, elektronik ve teknoloji alanında kaliteli ürünler sunan bir teknoloji mağazasıdır.",
+    "aboutParagraph2": "Gömülü sistemler, kablosuz iletişim modülleri, mikrodenetleyiciler ve güç kaynakları gibi birçok ürün çeşidimiz bulunmaktadır.",
+    "aboutParagraph3": "Amacımız, bireysel ve kurumsal müşterilerimize yenilikçi çözümler sunarak projelerine değer katmaktır."
+    ,
+  "navbar": {
+    "home": "Anasayfa",
+    "products": "Ürünlerimiz",
+    "experience": "Tecrübelerimiz",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "partners": "Çözüm \n Ortaklarımız"
+  }
+}
