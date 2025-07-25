@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+
+ “This repository is for educational/demo purposes only. All product names and datasheets belong to their respective owners.”
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
