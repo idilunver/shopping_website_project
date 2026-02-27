@@ -355,7 +355,7 @@ const AppContent = () => {
                     {item.image && (
                       <CardMedia
                         component="img"
-                        image={`/images/${item.image}`}
+                        image={`images/${item.image}`}
                         alt={item.name}
                         sx={{
                           width: 80,

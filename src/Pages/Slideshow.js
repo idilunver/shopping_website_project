@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const images = [
-  "/images/uydu_599e3.jpg",
-  "/images/hardware.jpg",
-  "/images/0JA7Lbox1aYtZyIRefwB.jpg"
+  "images/uydu_599e3.jpg",
+  "images/hardware.jpg",
+  "images/0JA7Lbox1aYtZyIRefwB.jpg"
 ];
 
 export default function Slideshow() {

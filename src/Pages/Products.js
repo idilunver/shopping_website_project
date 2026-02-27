@@ -141,7 +141,7 @@ const Products = ({ products, stock, handleBuy, role, onAddProduct }) => {
                   <CardMedia
                     component="img"
                     height="120"
-                    image={`/images/${product.image}`}
+                    image={`images/${product.image}`}
                     alt={product.name}
                     sx={{ objectFit: "contain", p: 1 }}
                   />
@@ -281,7 +281,7 @@ const Products = ({ products, stock, handleBuy, role, onAddProduct }) => {
                 {selectedProduct.name}
               </Typography>
               <img
-                src={`/images/${selectedProduct.image}`}
+                src={`images/${selectedProduct.image}`}
                 alt={selectedProduct.name}
                 style={{ maxWidth: "100%", maxHeight: 200, objectFit: "contain", marginBottom: 16 }}
               />
