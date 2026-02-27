@@ -32,7 +32,7 @@ import Logo from "./nexora.png";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useNavigate,
