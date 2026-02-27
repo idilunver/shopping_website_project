@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.553d4319.css",
+    "main.js": "/static/js/main.9d4de43a.js",
+    "static/js/453.183908db.chunk.js": "/static/js/453.183908db.chunk.js",
+    "static/media/image.jpg": "/static/media/image.b9d6c67baceb4a257799.jpg",
+    "static/media/nexora.png": "/static/media/nexora.84d86d96753386f381b3.png",
+    "static/media/xyz.jpg": "/static/media/xyz.7c6e4b251728ba61dca0.jpg",
+    "static/media/biz_kimiz.jpg": "/static/media/biz_kimiz.3d57ff913a9931c4aef7.jpg",
+    "static/media/abc.jpg": "/static/media/abc.668033eaa8a1683f2f09.jpg",
+    "index.html": "/index.html",
+    "main.553d4319.css.map": "/static/css/main.553d4319.css.map",
+    "main.9d4de43a.js.map": "/static/js/main.9d4de43a.js.map",
+    "453.183908db.chunk.js.map": "/static/js/453.183908db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.553d4319.css",
+    "static/js/main.9d4de43a.js"
+  ]
+}
