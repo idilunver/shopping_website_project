@@ -355,7 +355,7 @@ const AppContent = () => {
                     {item.image && (
                       <CardMedia
                         component="img"
-                        image={`images/${item.image}`}
+                        image={`${process.env.PUBLIC_URL}/images/${item.image}`}
                         alt={item.name}
                         sx={{
                           width: 80,

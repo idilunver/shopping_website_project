@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const images = [
-  "images/uydu_599e3.jpg",
-  "images/hardware.jpg",
-  "images/0JA7Lbox1aYtZyIRefwB.jpg"
+  `${process.env.PUBLIC_URL}/images/uydu_599e3.jpg`,
+  `${process.env.PUBLIC_URL}/images/hardware.jpg`,
+  `${process.env.PUBLIC_URL}/images/0JA7Lbox1aYtZyIRefwB.jpg`
 ];
 
 export default function Slideshow() {
