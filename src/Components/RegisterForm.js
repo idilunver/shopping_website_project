@@ -24,7 +24,7 @@ const RegisterForm = ({ onClose, onLoginClick }) => {
     return re.test(email);
   };
 
-  const handleRegister = async (e) => {
+  const handleRegister = (e) => {
     e.preventDefault();
 
     if (!validateEmail(email)) {
@@ -33,26 +33,13 @@ const RegisterForm = ({ onClose, onLoginClick }) => {
       return;
     }
 
-    const response = await fetch("http://localhost/shopping/api/register.php", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ username, email, password }),
-    });
-
-    const data = await response.json();
-
-    if (data.success) {
-      setMessage(t("registerSuccess"));
-      setMessageColor("success");
-      setUsername("");
-      setEmail("");
-      setPassword("");
-    } else {
-      setMessage(data.message || t("registerFailed"));
-      setMessageColor("error");
-    }
+    // Since we don't have a backend to store new users permanently,
+    // we'll just simulate a successful registration.
+    setMessage(t("registerSuccess"));
+    setMessageColor("success");
+    setUsername("");
+    setEmail("");
+    setPassword("");
   };
 
   return (

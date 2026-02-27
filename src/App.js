@@ -52,10 +52,12 @@ import { Phone, Email } from "@mui/icons-material";
 import './i18n';
 import { useTranslation } from "react-i18next";
 
+import { mockProducts } from "./mockData";
+
 const AppContent = () => {
   const [openLoginModal, setOpenLoginModal] = useState(false);
   const [openRegisterModal, setOpenRegisterModal] = useState(false);
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState(mockProducts);
   const [stock, setStock] = useState({});
   const [cart, setCart] = useState({});
   const [alertMsg, setAlertMsg] = useState(null);
@@ -137,20 +139,21 @@ const AppContent = () => {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost/shopping/api/getProducts.php")
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-        const initialStock = {};
-        data.forEach((p) => {
-          initialStock[p.id] = Number(p.stock);
-        });
-        setStock(initialStock);
+    const initialStock = {};
+    products.forEach((p) => {
+      initialStock[p.id] = Number(p.stock);
+    });
+    setStock(initialStock);
 
-        const savedCart = localStorage.getItem("cart");
-        if (savedCart) setCart(JSON.parse(savedCart));
-      });
+    const savedCart = localStorage.getItem("cart");
+    if (savedCart) setCart(JSON.parse(savedCart));
   }, []);
+
+  // Function to add a product locally (Simulated admin action)
+  const handleAddNewProduct = (newProduct) => {
+    setProducts((prev) => [...prev, { ...newProduct, id: prev.length + 1 }]);
+    setStock((prev) => ({ ...prev, [products.length + 1]: Number(newProduct.stock) }));
+  };
 
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -219,7 +222,7 @@ const AppContent = () => {
               </Link>
             </Box>
 
-            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0.5, fontSize: "0.85rem", mt: 0.5 , marginLeft:"3%"}}>
+            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0.5, fontSize: "0.85rem", mt: 0.5, marginLeft: "3%" }}>
               <Box underline="hover" sx={{ display: "flex", alignItems: "center" }}>
                 <Phone sx={{ fontSize: "1rem", mr: 0.8, color: "black" }} />
                 <Typography variant="body2" sx={{ fontSize: "0.9rem" }}>0 (000) 000 0000</Typography>
@@ -229,11 +232,11 @@ const AppContent = () => {
                 sx={{ color: "black", display: "flex", alignItems: "center", fontSize: "1rem", "&:hover": { color: "#0a66c2" } }}
               >
                 <Email sx={{ fontSize: "0.9rem", mr: 0.8 }} />
-                <Typography variant="body2" sx={{ fontSize: "0.9rem"}}> info@nexora.com.tr </Typography>
+                <Typography variant="body2" sx={{ fontSize: "0.9rem" }}> info@nexora.com.tr </Typography>
               </Box>
             </Box>
 
-            <Box sx={{ display: { md: "flex" }, gap: 0.75, textAlign: "center", marginLeft:"3%" }}>
+            <Box sx={{ display: { md: "flex" }, gap: 0.75, textAlign: "center", marginLeft: "3%" }}>
               <Button component={Link} to="/anasayfa" sx={navButtonStyle("/anasayfa")}>{t("navbar.home")}</Button>
               <Button component={Link} to="/urunler" sx={navButtonStyle("/urunler")}>{t("navbar.products")}</Button>
               <Button component={Link} to="/hakkimizda" sx={navButtonStyle("/hakkimizda")}>{t("navbar.about")}</Button>
@@ -265,7 +268,7 @@ const AppContent = () => {
                   <>
                     <Avatar sx={{ bgcolor: "#1976d2", width: 30, height: 30, fontSize: 13 }}>
                       {(username && username.charAt(0).toUpperCase()) || "U"}
-                    </Avatar> 
+                    </Avatar>
                     <Button
                       sx={{
                         ...buttonStyle,
@@ -439,7 +442,7 @@ const AppContent = () => {
         <ScrollToTop />
         <Routes>
           <Route path="/anasayfa" element={<Home username={isLoggedIn ? username : null} />} />
-          <Route path="/urunler" element={<Products products={products} stock={stock} handleBuy={handleAddToCart} selectedCategory="All" role={role} />} />
+          <Route path="/urunler" element={<Products products={products} stock={stock} handleBuy={handleAddToCart} selectedCategory="All" role={role} onAddProduct={handleAddNewProduct} />} />
           <Route path="/hakkimizda" element={<About />} />
           <Route path="/iletisim" element={<Contact />} />
           <Route path="/checkout" element={<Checkout cart={cart} totalCartPrice={totalCartPrice} />} />

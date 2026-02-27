@@ -16,30 +16,28 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { useTranslation } from "react-i18next";
+import { mockUsers } from "../mockData";
 
 const LoginForm = ({ setIsLoggedIn, onClose, onRegisterClick }) => {
-  const { t } = useTranslation("loginForm");  
+  const { t } = useTranslation("loginForm");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [error, setError] = useState("");
 
-  const handleLogin = async (e) => {
+  const handleLogin = (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost/shopping/api/login.php", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, password })
-    });
+    // Simulated login check
+    const user = mockUsers.find(
+      (u) => u.username === username && u.password === password
+    );
 
-    const data = await response.json();
-
-    if (data && data.username) {
+    if (user) {
       localStorage.setItem("isLoggedIn", "true");
-      localStorage.setItem("username", data.username);
-      localStorage.setItem("role", data.role);
+      localStorage.setItem("username", user.username);
+      localStorage.setItem("role", user.role);
 
       if (rememberMe) {
         localStorage.setItem("rememberMe", "true");

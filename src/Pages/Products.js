@@ -22,7 +22,7 @@ import ControlPointDuplicateIcon from "@mui/icons-material/ControlPointDuplicate
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { useTranslation } from "react-i18next";
 
-const Products = ({ products, stock, handleBuy, role }) => {
+const Products = ({ products, stock, handleBuy, role, onAddProduct }) => {
   const { t, i18n } = useTranslation("products");
 
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -41,8 +41,8 @@ const Products = ({ products, stock, handleBuy, role }) => {
   });
 
   const categories = useMemo(() => {
-    return ["All", ...new Set(products.map((p) => p.category))];
-  }, [products]);
+    return ["All", "Microcontrollers", "Regulators", "Wireless", "Converters", "Buttons"];
+  }, []);
 
   const translatedCategories = useMemo(() => {
     return categories.map((cat) => t(`category.${cat}`, { defaultValue: cat }));
@@ -55,40 +55,24 @@ const Products = ({ products, stock, handleBuy, role }) => {
   const handleInputChange = (e) => {
     const { name, value, files } = e.target;
     if (files && files.length > 0) {
-      setForm((prev) => ({ ...prev, [name]: files[0] }));
+      // In a mock environment, we'll just store the filename for simplicity
+      setForm((prev) => ({ ...prev, [name]: files[0].name }));
     } else {
       setForm((prev) => ({ ...prev, [name]: value }));
     }
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
-    const formData = new FormData();
-    Object.entries(form).forEach(([key, value]) => {
-      if (value !== null && value !== "") formData.append(key, value);
-    });
-
-    try {
-      const res = await fetch("http://localhost/shopping/api/addProduct.php", {
-        method: "POST",
-        body: formData,
-      });
-
-      const data = await res.json();
-
-      if (data.success) {
-        alert(t("product_added_success"));
-        setModalOpen(false);
-      } else {
-        alert(t("product_add_failed") + ": " + data.message);
-      }
-    } catch (err) {
-      alert(t("product_add_failed") + ": " + err.message);
-    } finally {
+    // Simulate addition delay
+    setTimeout(() => {
+      onAddProduct(form);
+      alert(t("product_added_success"));
+      setModalOpen(false);
       setLoading(false);
-    }
+    }, 500);
   };
 
   const showDetail = (product) => {
