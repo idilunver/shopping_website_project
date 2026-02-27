@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/shopping_website_project/static/css/main.553d4319.css",
-    "main.js": "/shopping_website_project/static/js/main.3d432266.js",
-    "static/js/453.183908db.chunk.js": "/shopping_website_project/static/js/453.183908db.chunk.js",
-    "static/media/image.jpg": "/shopping_website_project/static/media/image.b9d6c67baceb4a257799.jpg",
-    "static/media/nexora.png": "/shopping_website_project/static/media/nexora.84d86d96753386f381b3.png",
-    "static/media/xyz.jpg": "/shopping_website_project/static/media/xyz.7c6e4b251728ba61dca0.jpg",
-    "static/media/biz_kimiz.jpg": "/shopping_website_project/static/media/biz_kimiz.3d57ff913a9931c4aef7.jpg",
-    "static/media/abc.jpg": "/shopping_website_project/static/media/abc.668033eaa8a1683f2f09.jpg",
-    "index.html": "/shopping_website_project/index.html",
-    "main.553d4319.css.map": "/shopping_website_project/static/css/main.553d4319.css.map",
-    "main.3d432266.js.map": "/shopping_website_project/static/js/main.3d432266.js.map",
-    "453.183908db.chunk.js.map": "/shopping_website_project/static/js/453.183908db.chunk.js.map"
+    "main.css": "./static/css/main.553d4319.css",
+    "main.js": "./static/js/main.34d6a4ca.js",
+    "static/js/453.183908db.chunk.js": "./static/js/453.183908db.chunk.js",
+    "static/media/image.jpg": "./static/media/image.b9d6c67baceb4a257799.jpg",
+    "static/media/nexora.png": "./static/media/nexora.84d86d96753386f381b3.png",
+    "static/media/xyz.jpg": "./static/media/xyz.7c6e4b251728ba61dca0.jpg",
+    "static/media/biz_kimiz.jpg": "./static/media/biz_kimiz.3d57ff913a9931c4aef7.jpg",
+    "static/media/abc.jpg": "./static/media/abc.668033eaa8a1683f2f09.jpg",
+    "index.html": "./index.html",
+    "main.553d4319.css.map": "./static/css/main.553d4319.css.map",
+    "main.34d6a4ca.js.map": "./static/js/main.34d6a4ca.js.map",
+    "453.183908db.chunk.js.map": "./static/js/453.183908db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.553d4319.css",
-    "static/js/main.3d432266.js"
+    "static/js/main.34d6a4ca.js"
   ]
 }
